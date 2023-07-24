@@ -12,7 +12,7 @@ export const Home = () => {
   }
 
   async function handleDelete(id) {
-    const del = await axios.delete(`https://backend-2100016030-9t6g.vercel.app//${id}`);
+    const del = await axios.delete(`https://backend-2100016030-9t6g.vercel.app/${id}`);
     if (!del) {
       console.log("Error in Deleting");
     } else {

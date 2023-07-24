@@ -4,7 +4,7 @@ form {
   padding: 30px;
   margin: auto;
   border-radius: 10px;
-  background: #16c9ff;
+  background: #7498a4;
   text-align: left;
 }
 
@@ -15,7 +15,7 @@ body {
 button {
   display: inline;
   border: none;
-  background: #16c9ff;
+  background: #7498a4;
   color: black;
   padding: 10px 15px;
   margin-left: 15px;
@@ -32,6 +32,6 @@ a {
   padding: 50px;
   align-items: center;
   text-align: center;
-  background: #ca127a;
+  background: #96a9a6;
   border-radius: 15px;
 }

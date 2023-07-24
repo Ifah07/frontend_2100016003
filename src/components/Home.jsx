@@ -6,13 +6,13 @@ export const Home = () => {
   const [val, setVal] = useState([]);
 
   async function getData() {
-    const data = await axios.get("http://localhost:4000");
+    const data = await axios.get("https://backend-2100016030-9t6g.vercel.app/");
     setVal(data.data);
     console.log(data.data);
   }
 
   async function handleDelete(id) {
-    const del = await axios.delete(`http://localhost:4000/${id}`);
+    const del = await axios.delete(`https://backend-2100016030-9t6g.vercel.app//${id}`);
     if (!del) {
       console.log("Error in Deleting");
     } else {

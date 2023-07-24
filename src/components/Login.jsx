@@ -15,7 +15,7 @@ export const Login = () => {
 
   async function handleClick(e) {
     e.preventDefault();
-    const post = await axios.post(`http://localhost:4000/login`, data).then((response) => {
+    const post = await axios.post(`https://backend-2100016030-9t6g.vercel.app/`, data).then((response) => {
       // Response data is available in response.data
       setResponseMessage(response.data.token);})
       if (!post) {
